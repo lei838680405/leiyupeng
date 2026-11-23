@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: leiyupeng
+    runtime: static
+    buildCommand: node build.cjs
+    staticPublishPath: ./site
