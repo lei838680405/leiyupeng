@@ -11,6 +11,7 @@ if(fs.existsSync('update-manifest.json')){
  if(sha('site-update.tar.gz')!==manifest.archiveSha256)throw Error('Invalid update archive');
 }
 if(fs.existsSync('site-update.tar.gz'))cp.execFileSync('tar',['-xzf','site-update.tar.gz','-C','site']);
+if(fs.existsSync('guide-update.tar.gz'))cp.execFileSync('tar',['-xzf','guide-update.tar.gz','-C','site']);
 if(fs.existsSync('online-files.json')){
  const allowed=new Set(JSON.parse(fs.readFileSync('online-files.json','utf8')));
  function clean(dir,prefix=''){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const rel=prefix+e.name,file=path.join(dir,e.name);if(e.isDirectory())clean(file,rel+'/');else if(!allowed.has(rel))fs.unlinkSync(file);}}
