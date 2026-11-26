@@ -1,0 +1,90 @@
+{
+  "archiveSha256": "f3e0d0576d16689ef33d7f6ef4831720739d5c4d9e2ef6e544b83c7c1e54aed8",
+  "parts": [
+    {
+      "name": "site-update-part-00.bin",
+      "bytes": 20971520,
+      "sha256": "e2827cfe1eecf9d2e9e52cce84f8784cf903ecd9b78df55028290becb8094f1a"
+    },
+    {
+      "name": "site-update-part-01.bin",
+      "bytes": 20971520,
+      "sha256": "3f1e192bc604e61cc6cd816307453b7c000e8c0fbb60c34a8e26aa3b18496706"
+    },
+    {
+      "name": "site-update-part-02.bin",
+      "bytes": 20971520,
+      "sha256": "455fa1c91e1524f871dd69809d61c88e225436cb060910e2e27ba79e66bc6dee"
+    },
+    {
+      "name": "site-update-part-03.bin",
+      "bytes": 20971520,
+      "sha256": "f041075125279c536b5d9421f391743715fd3ccacc42347ba7f7b059bc8fc46b"
+    },
+    {
+      "name": "site-update-part-04.bin",
+      "bytes": 20971520,
+      "sha256": "f75ebb9e36793bb40f7088b5c4b65d68f65b19e140e0fc3af1b99f84c69c52d1"
+    },
+    {
+      "name": "site-update-part-05.bin",
+      "bytes": 20971520,
+      "sha256": "584587c8d7aa8994c79faac9d3e7d6eb5ee7c13bf329f0bb54cc373e09a42d6d"
+    },
+    {
+      "name": "site-update-part-06.bin",
+      "bytes": 20971520,
+      "sha256": "b26401226d681c73b3fbd99570e9f5746ec10fe50e642dd8edaadcc178da5aea"
+    },
+    {
+      "name": "site-update-part-07.bin",
+      "bytes": 20971520,
+      "sha256": "5bac02a568dbb19d224eb971e86df823eaf87aa9f8b494f566905c8eafd4b722"
+    },
+    {
+      "name": "site-update-part-08.bin",
+      "bytes": 20971520,
+      "sha256": "cb8f491ab85339b6ff298559b0eece7f5d3aae537c0e23f8400f7df39e700426"
+    },
+    {
+      "name": "site-update-part-09.bin",
+      "bytes": 20971520,
+      "sha256": "93724a54fbfaa97e1331cf33818ff8fb555482213ea8d28c2a5adea5d614b537"
+    },
+    {
+      "name": "site-update-part-10.bin",
+      "bytes": 20971520,
+      "sha256": "80627206d221915f900bdfd4132964a65f136fdb77397aecef47af269ec1c2d3"
+    },
+    {
+      "name": "site-update-part-11.bin",
+      "bytes": 20971520,
+      "sha256": "2867ad15debc2b09dbabff8c86f5ad520f60f15c765bf99a4040331c04c97179"
+    },
+    {
+      "name": "site-update-part-12.bin",
+      "bytes": 20971520,
+      "sha256": "9693bb12422b888dfc0e2b868715228b593218a57eaae58b02bb9102c0f01db6"
+    },
+    {
+      "name": "site-update-part-13.bin",
+      "bytes": 20971520,
+      "sha256": "e3d666cb2cdc29a38f489ed0f69ac2874ed81e0b70490097ef0e94e6b23d52ad"
+    },
+    {
+      "name": "site-update-part-14.bin",
+      "bytes": 20971520,
+      "sha256": "c88dbc4c0327a688fc35a1347c366e479bc09cf65701fed1563280ef111c7687"
+    },
+    {
+      "name": "site-update-part-15.bin",
+      "bytes": 20971520,
+      "sha256": "c6a5c4c10d5b09993d546346ff0b9ba708b4b944d956d84fcccbfa7eed1362e4"
+    },
+    {
+      "name": "site-update-part-16.bin",
+      "bytes": 9192402,
+      "sha256": "5570fa5b65f639f009b42c6abc3c2a9332295e5f896da137d3d78eea5eb855e5"
+    }
+  ]
+}
