@@ -13,6 +13,7 @@ if(fs.existsSync('update-manifest.json')){
 if(fs.existsSync('site-update.tar.gz'))cp.execFileSync('tar',['-xzf','site-update.tar.gz','-C','site']);
 if(fs.existsSync('guide-update.tar.gz'))cp.execFileSync('tar',['-xzf','guide-update.tar.gz','-C','site']);
 if(fs.existsSync('latest-update.tar.gz'))cp.execFileSync('tar',['-xzf','latest-update.tar.gz','-C','site']);
+if(fs.existsSync('video-update.tar.gz'))cp.execFileSync('tar',['-xzf','video-update.tar.gz','-C','site']);
 if(fs.existsSync('online-files.json')){
  const allowed=new Set(JSON.parse(fs.readFileSync('online-files.json','utf8')));
  function clean(dir,prefix=''){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const rel=prefix+e.name,file=path.join(dir,e.name);if(e.isDirectory())clean(file,rel+'/');else if(!allowed.has(rel))fs.unlinkSync(file);}}
